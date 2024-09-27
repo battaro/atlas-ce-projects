@@ -1,14 +1,30 @@
 # Atlas-CE-Projects
 
-Welcome to my Computer Engineering projects repository! This repository contains all the projects I've worked on during my degree at Atlas Istanbul University, organized by academic year.
+Welcome to the Atlas-CE-Projects public repository! This collection showcases all the projects and homework assignments I've completed throughout my Computer Engineering degree at Atlas Istanbul University. The materials are organized for easy navigation.
 
-Each project folder includes:
+### Each project and homework folder contains:
 
-- Source code
-- Documentation on how to set up and run the project
-- Any related resources (e.g., reports, diagrams, assets)
+- `Source Code`: The complete codebase for the project.
+- `Documentation`: Instructions on how to set up and run the project.
+- `Additional Resources`: Related materials such as reports, diagrams, and assets.
 
-### Project Overview
+## Homework Overview
 
-| Year | Project Name | Description |
-| ---- | ------------ | ----------- |
+| Week | Homework Name      | Description                                                      |
+| ---- | ------------------ | ---------------------------------------------------------------- |
+| 1    | Print Student Info | A simple program that prints student details such as name, id... |
+| 2    | Letter `I` Printer | A program that prints the letter "I" like pattern                |
+| 3    | To be completed    |                                                                  |
+| 4    | To be completed    |                                                                  |
+| 5    | To be completed    |                                                                  |
+| 6    | To be completed    |                                                                  |
+| 7    | To be completed    |                                                                  |
+| 8    | To be completed    |                                                                  |
+| 9    | To be completed    |                                                                  |
+| 10   | To be completed    |
+
+## Project Overview
+
+| Year | Project No. | Project Name | Description |
+| ---- | ----------- | ------------ | ----------- |
+| 2024 | 1           |              |             |
