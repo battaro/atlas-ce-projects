@@ -14,7 +14,7 @@ Welcome to the Atlas-CE-Projects public repository! This collection showcases al
 | ---- | ------------------ | ---------------------------------------------------------------- |
 | 1    | Print Student Info | A simple program that prints student details such as name, id... |
 | 2    | Letter `I` Printer | A program that prints the letter "I" like pattern                |
-| 3    | To be completed    |                                                                  |
+| 3    | Clock Timer        | Displays time in HH:MM:SS format with countdown or stopwatch.    |
 | 4    | To be completed    |                                                                  |
 | 5    | To be completed    |                                                                  |
 | 6    | To be completed    |                                                                  |

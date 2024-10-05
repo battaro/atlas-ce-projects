@@ -13,7 +13,6 @@ The program prompts the user to input two parameters:
 ![alt text](assets/Readme_Images/image.png)
 
 ## Project Structure
-
 The code is structured into modular functions to keep the program simple and maintainable:
 
 - **`Print`**: Prints a specified character a given number of times.
