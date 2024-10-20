@@ -16,7 +16,7 @@ Welcome to the Atlas-CE-Projects public repository! This collection showcases al
 | 2    | Letter `I` Printer | A program that prints the letter "I" like pattern                                      |
 | 3    | Clock Timer        | Displays time in HH:MM:SS format with countdown or stopwatch.                          |
 | 4    | Caeser Cipher      | Implement a program to encrypt and decrypt messages using the Caesar Cipher technique. |
-| 5    | To be completed    |                                                                                        |
+| 5    | Quadratic Equation | A simple program calculate x1,x2 using quadratic formula                               |
 | 6    | To be completed    |                                                                                        |
 | 7    | To be completed    |                                                                                        |
 | 8    | To be completed    |                                                                                        |
