@@ -23,3 +23,5 @@ Through this project, I gained valuable experience in loops, nested loops, 2D ar
 ## Conclusion 
 This project helped me practice loops, 2D arrays, and color handling, offering useful experience for future projects.
 
+### Github Repo : 
+- [My public GITHUB repo](https://github.com/battaro/atlas-ce-projects)
