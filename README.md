@@ -25,6 +25,6 @@ Welcome to the Atlas-CE-Projects public repository! This collection showcases al
 
 ## Project Overview
 
-| Year | Project No. | Project Name | Description |
-| ---- | ----------- | ------------ | ----------- |
-| 2024 | 1           |              |             |
+| Year | Project No. | Project Name        | Description                                                         |
+| ---- | ----------- | ------------------- | ------------------------------------------------------------------- |
+| 2024 | 0           | 2D Array Operations | A 2D array with functions like sum, counting digits, and searching. |
