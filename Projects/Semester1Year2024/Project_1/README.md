@@ -20,9 +20,11 @@
 
 ## How to use
 
-1. Run the program using gcc or any other compiler.
-2. Prompt a number of any section you want.
-3. exit the program.
+1. Place `Cards.txt` and `AnswerKeys.txt` in the same directory as the program (You can find them in /assets folder).
+2. If the code is not yet compiled, use gcc or any other compiler to compile it.
+3. Run the compiled `.exe` file, ensuring that `Cards.txt` and `AnswerKeys.txt` are in the same folder.
+4. Enter the number corresponding to the section you want to access.
+5. Exit the program when you're done.
 
 ## Code Structure
 
@@ -48,4 +50,5 @@ The `== 5` ensures all 5 fields were successfully extracted. The expected input 
 This project simplifies processing exam data, providing accurate grading and statistics. It demonstrates practical C programming skills and emphasizes well-structured, efficient, and user-friendly code.
 
 ### Github Repo :
+
 - [My public GITHUB repo](https://github.com/battaro/atlas-ce-projects)
