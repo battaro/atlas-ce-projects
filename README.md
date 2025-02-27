@@ -39,6 +39,6 @@ The primary programming language used for this semester is `C`. So all homework 
 
 ### Project Overview
 
-| Year | Project No. | Languange  | Project Name | Description |
-| ---- | ----------- | ---------- | ------------ | ----------- |
-| 2025 | to be done  | to be done | to be done   | to be done  |
+| Year | Project No. | Languange | Project Name              | Description                                       |
+| ---- | ----------- | --------- | ------------------------- | ------------------------------------------------- |
+| 2025 | 1           | `JAVA`    | Random Password Generator | A UI application that generates random passwords. |
