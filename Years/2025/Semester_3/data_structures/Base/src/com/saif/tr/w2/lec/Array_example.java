@@ -9,7 +9,7 @@ public class Array_example {
 
         // Modifying an element
         numbers[2] = 99;
-System.out.println("Modified element at index 2: " + numbers[2]);
+        System.out.println("Modified element at index 2: " + numbers[2]);
 
         // Traversing the array
         System.out.println("All elements:");
