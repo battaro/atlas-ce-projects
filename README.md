@@ -24,22 +24,23 @@ The primary programming language used for this semester is `C`. So all homework 
 
 ### Project Overview
 
-| Year | Project No. | Project Name                      | Description                                                         |
-| ---- | ----------- | --------------------------------- | ------------------------------------------------------------------- |
-| 2024 | 0           | 2D Array Operations               | A 2D array with functions like sum, counting digits, and searching. |
-| 2024 | 1           | Student Exam Grading and Analysis | A program generates grades and statistics files                     |
+| Year | Project No. | Language   | Project Name             | Description                                                         |
+| ---- | ----------- |------------|-----------------------------------| ------------------------------------------------------------------- |
+| 2024 | 0           | `C`        |2D Array Operations               | A 2D array with functions like sum, counting digits, and searching. |
+| 2024 | 1           | `C`        |Student Exam Grading and Analysis | A program generates grades and statistics files                     |
 
 # Semester 2
-
-### Homeworks
-
-| Week | Languange  | Homework Name | Description |
-| ---- | ---------- | ------------- | ----------- |
-| 0    | to be done | to be done    | to be done  |
 
 ### Project Overview
 
 | Year | Project No. | Languange | Project Name              | Description                                       |
 | ---- | ----------- | --------- | ------------------------- | ------------------------------------------------- |
 | 2025 | 1           | `JAVA`    | Random Password Generator | A UI application that generates random passwords. |
-| 2025 | 2           | `Java` | Linear Equation Calculator GUI | A UI application that calculates a linear equation and give the intersection points |
+| 2025 | 2           | `JAVA` | Linear Equation Calculator GUI | A UI application that calculates a linear equation and give the intersection points |
+
+# Semester 3
+
+
+
+
+

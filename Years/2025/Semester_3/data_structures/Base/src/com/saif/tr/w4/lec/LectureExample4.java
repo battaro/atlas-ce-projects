@@ -1,5 +1,7 @@
 package com.saif.tr.w4.lec;
 
+import javax.naming.NamingEnumeration;
+
 public class LectureExample4 {
     public static void main(String[] args) {
         LectureExample4 example = new LectureExample4();
@@ -9,10 +11,7 @@ public class LectureExample4 {
         myLL.addFirst(34);
         myLL.addLast(58);
         myLL.display();
-
-
     }
-
 
     class IntLL {
         private IntNode head;
@@ -49,8 +48,7 @@ public class LectureExample4 {
                 System.out.print(current.data + " ");
                 current = current.next;
             }
-            System.out.print("null");
-            System.out.println("-------------");
+            System.out.println("null");
         }
 
         boolean isEmpty() {
