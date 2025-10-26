@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Years/2025/Semester_2/Projects/Project_1/Project_1.iml" filepath="$PROJECT_DIR$/Years/2025/Semester_2/Projects/Project_1/Project_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Years/2025/Semester_2/Projects/Project_2/Project_2.iml" filepath="$PROJECT_DIR$/Years/2025/Semester_2/Projects/Project_2/Project_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Years/2025/Semester_3/Semester_3.iml" filepath="$PROJECT_DIR$/Years/2025/Semester_3/Semester_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/atlas-ce-projects.iml" filepath="$PROJECT_DIR$/.idea/atlas-ce-projects.iml" />
+    </modules>
+  </component>
+</project>
