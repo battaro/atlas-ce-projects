@@ -1,7 +1,18 @@
 package com.saif.tr.ExercisesForMidterm;
 
+import com.saif.tr.w4.lab.LabExample4;
+import org.w3c.dom.Node;
+
 public class Exercises {
     public static void main(String[] args) {
+        Exercises ex = new Exercises();
+        IntLL linkedList = ex.new IntLL();
+
+        linkedList.addFirst(2);
+        linkedList.addLast(4);
+        linkedList.addLast(7);
+        linkedList.insertIterative(5);
+        linkedList.display();
 
     }
     // <editor-fold "Ex1">
@@ -71,23 +82,137 @@ public class Exercises {
     }
 
     //Recursive way
-    static void starsRecursive(char c, int rows, int col)
-    {
+    static void starsRecursive(char c, int rows, int col) {
         if (rows == 0)
             return;
 
-        if (col < rows)
-        {
+        if (col < rows) {
             System.out.print(c);
             starsRecursive(c, rows, col + 1);
-        }
-        else {
+        } else {
             System.out.println();
             starsRecursive(c, rows - 1, 0);
         }
     }
     //</editor-fold>
 
+    // <editor-fold "Ex3 -> Ex16">"
+
+
+    class IntLL {
+        private IntNode head;
+
+        IntLL() {
+            this.head = null;
+        }
+
+        IntNode getHead() {
+            return this.head;
+        }
+
+        void setHead(IntNode newHead) {
+            this.head = newHead;
+        }
+
+        void addFirst(int data) {
+            IntNode newNode = new IntNode(data);
+            newNode.next = head;
+            head = newNode;
+        }
+
+        void addLast(int data) {
+            if (isEmpty()) {
+                System.out.println("Empty List");
+            }
+            IntNode temp = head;
+            while (temp.next != null) {
+                temp = temp.next;
+            }
+            temp.next = new IntNode(data);
+        }
+
+        void display() {
+            if (isEmpty()) {
+                System.out.println("Empty List");
+            }
+            IntNode temp = head;
+            while (temp != null) {
+                System.out.print(temp.data + " ");
+                temp = temp.next;
+            }
+            System.out.println();
+        }
+
+        boolean isEmpty() {
+            return head == null;
+        }
+
+
+        /* 4. Write a recursive function that inserts an element into a linked list which is ordered, or maintains
+        the order. */
+
+        //Iterative way
+        void insertIterative (int data){
+            addFirst(data);
+            IntNode current = head;
+            while (current != null && current.data > current.next.data)
+            {
+               int temp = current.data;
+               current.data = current.next.data;
+               current.next.data = temp;
+               current = current.next;
+            }  
+        }
+    }
+     /*
+        3.Write a recursive function, remove(target, head) where the function removes all the occurrences
+        of target from linked list whose first element’s address stored in the head. Remove function should
+        return the head of the new list. Use the linked list example we discussed in class.
+        An example would be removing 9 from the linked list 9, 4, 2, 8, 9, 4 would return 4, 2, 8, 4.
+         */
+
+    //Iterative way
+    static IntNode removeIterative(int target, IntNode head) {
+        while (head.data == target)
+            head = head.next;
+
+        IntNode temp = head;
+        while (temp.next != null) {
+            if (temp.next.data == target) {
+                temp.next = temp.next.next;
+            } else {
+                temp = temp.next;
+            }
+        }
+        return head;
+    }
+
+    //Recursive way
+    static IntNode removeRecursive(int target, IntNode head) {
+        if (head == null)
+            return null;
+
+        head.next = removeRecursive(target, head.next);
+
+        if (head.data == target)
+            return head.next;
+        else
+            return head;
+    }
+
+
+    class IntNode {
+        int data;
+        IntNode next;
+
+        public IntNode(int data) {
+            this.data = data;
+            next = null;
+        }
+    }
+
+
+    //</editor-fold>
 
 
 }
