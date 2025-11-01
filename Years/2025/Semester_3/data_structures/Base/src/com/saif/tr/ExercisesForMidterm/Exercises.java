@@ -11,10 +11,16 @@ public class Exercises {
         linkedList.addFirst(2);
         linkedList.addLast(4);
         linkedList.addLast(7);
-        linkedList.insertIterative(5);
+        linkedList.addLast(7);
+        linkedList.addLast(4);
         linkedList.display();
-
+        boolean found = containRecursive(linkedList.head,2);
+        String txt = found ? "Yes" : "No";
+        System.out.println(txt);
     }
+
+
+
     // <editor-fold "Ex1">
     //1.Write a recursive function that determines if a string passed is palindrome or not.
     //Some palindromes are Madam, level,radar,refer, ....
@@ -163,7 +169,24 @@ public class Exercises {
                current = current.next;
             }  
         }
+
+        //Recursive way
+        IntNode insertRecursive(IntNode node, int data) {
+
+            if (node == null || data < node.data) {
+                IntNode newNode = new IntNode(data);
+                newNode.next = node;
+                return newNode;
+            }
+
+            node.next = insertRecursive(node.next, data);
+            return node;
+        }
+        
     }
+
+
+
      /*
         3.Write a recursive function, remove(target, head) where the function removes all the occurrences
         of target from linked list whose first element’s address stored in the head. Remove function should
@@ -199,6 +222,35 @@ public class Exercises {
         else
             return head;
     }
+
+    /* 5. Check if a linked list contains an element */
+
+    //Iterative way
+    static boolean containIterative(IntNode node, int target){
+
+        boolean found = false;
+        if (node == null)
+            return found;
+
+        IntNode current = node;
+        while(current != null){
+            if(current.data == target){
+                found = true;
+                break;
+            }
+            current = current.next;
+        }
+        return found;
+    }
+
+    static boolean containRecursive(IntNode node, int target){
+        if(node == null)
+            return false;
+        if(node.data == target)
+            return true;
+        return containRecursive(node.next, target);
+    }
+
 
 
     class IntNode {
