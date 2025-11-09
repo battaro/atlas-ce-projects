@@ -1,3 +1,5 @@
+package Projects.TermProject;
+
 import java.io.*;
 import java.util.*;
 
@@ -27,7 +29,7 @@ public class mazeSolver {
     {
 
         //Create Object points to maze.txt
-        String fileLocation = "maze.txt";
+        String fileLocation = "location\\maze.txt";
         File file = new File(fileLocation);
         Scanner input = new Scanner(file);
 
