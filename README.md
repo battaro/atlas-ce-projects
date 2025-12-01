@@ -43,6 +43,7 @@ The primary programming language used for this semester is `C`. So all homework 
 | Year | Project No. | Languange | Project Name              | Description                                       |
 | ---- | ----------- | --------- | ------------------------- | ------------------------------------------------- |
 | 2025 | 1           | `JAVA`    | Maze solver | Maze solver gets the maze from maze.txt and prints the solution using DFS |
+| 2025 | 2           | `JAVA`    | Maze solver | Maze solver gets the maze from maze.txt and prints the solution using BFS to get the shortest path |
 
 
 
